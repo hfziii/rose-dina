@@ -1,0 +1,363 @@
+
+body {
+    background-color: #FF7771;
+    overflow: hidden;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    left: -45%;
+}
+
+.rose {
+    position: absolute;
+}
+
+.rose-1{
+    margin: 99px 50px 0px 320px;
+    width: 100px;
+    z-index: 0;
+}
+
+.rose-2{
+    margin: 153px 50px 0px 285px;
+    width: 100px;
+    z-index: 0;
+}
+
+.rose-3{
+    margin: 165px 0px 0px 350px;
+    width: 100px;
+}
+
+.rose-4{
+    margin: 127px 0px 0px 220px;
+    width: 100px;
+    z-index: -1;
+}
+
+.rose-5{
+    margin: 87px 0px 0px 395px;
+    width: 100px;
+    z-index: -1;
+}
+
+.rose-6{
+    margin: 207px 0px 0px 218px;
+    width: 40px;
+    z-index: -1;
+}
+
+.rose-7{
+    margin: 132px 0px 0px 418px;
+    width: 100px;
+    z-index: -1;
+}
+
+.rose-8{
+    margin: 92px 0px 0px 260px;
+    width: 100px;
+    z-index: -1;
+}
+
+.rose-9{
+    margin: 203px 0px 0px 415px;
+    width: 80px;
+    z-index: -1;
+}
+
+.rose-10{
+    margin: 205px 0px 0px 240px;
+    width: 100px;
+    z-index: -1;
+}
+
+.rose-11{
+    margin: 56px 0px 0px 315px;
+    width: 100px;
+    z-index: -2;
+}
+
+.rose-12{
+    margin: 100px 0px 0px 237px;
+    width: 40px;
+    z-index: -2;
+}
+
+.rose-13{
+    margin: 60px 0px 0px 400px;
+    width: 35px;
+    z-index: -3;
+}
+
+.rose-14{
+    margin: 96px 0px 0px 450px;
+    width: 85px;
+    z-index: -2;
+}
+
+.ls{
+    position: absolute;
+    width: 260px;
+    margin: 200px 0px 0px 242px;
+    z-index: -3;
+}
+
+.fall{
+    position: absolute;
+    width: 50px;
+}
+
+.fall-1{
+    margin: 390px 0px 0px 236px;
+}
+
+
+.fall-2{
+    margin: 440px 0px 0px 442px;
+}
+
+.fall-3{
+    margin: 290px 0px 0px 342px;
+}
+
+/* FIREFLY */
+.roses {
+    overflow: hidden; /* Memastikan kunang-kunang di dalam area gambar mawar */
+}
+
+
+@keyframes firefly-animation {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+}
+
+.firefly-1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 110px 0px 0px 210px;
+}
+
+.firefly-2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 80px 0px 0px 230px;
+}
+
+.firefly-3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 70px 0px 0px 260px;
+}
+
+.firefly-4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 25px 0px 0px 350px;
+}
+
+.firefly-5 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 30px 0px 0px 320px;
+}
+
+.firefly-6 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 30px 0px 0px 380px;
+}
+
+.firefly-7 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 90px 0px 0px 529px;
+}
+
+.firefly-8 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 122px 0px 0px 550px;
+}
+
+.firefly-9 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    animation: firefly-animation 5s infinite alternate, fade-out 5s linear forwards;
+    margin: 160px 0px 0px 540px;
+}
+
+/* LETTER */
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.letter-na {
+    position: absolute;
+    margin: 275px 0px 0px 271px;
+}
+
+.letter {
+    position: relative; /* Diperlukan agar transformasi bekerja dengan benar */
+    animation: shake 2s ease-in-out infinite;
+}
+
+.message {
+    position: absolute;
+    top: 410px;
+    left: 315px;
+    color: #fff;
+    text-align: center;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap; /* Membuat teks dalam satu baris */
+}
+
+/* POP UP */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 249px;
+    height: 297px;
+    border-radius: 20px;
+    border: 5px solid #FF7771;
+    background: #FFF;
+}
+
+.popup-content {
+    position: relative; /* Ubah menjadi relative */
+    width: 180px;
+    height: 151px;
+    margin: auto; /* Tambahkan margin auto */
+    padding: 30px; /* Tambahkan padding agar konten terlihat lebih baik */
+    color: #FF7771;
+    text-align: center;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup button {
+    display: block; /* Tambahkan display block agar tombol berada di tengah */
+    margin: 30px auto 0; /* Atur margin agar tombol berada di tengah */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #45a049;
+}
+
+.close-btn {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup button.close-btn {
+    color: #FF0000; /* Warna teks merah */
+    background: none; /* Hapus latar belakang */
+    border: none; /* Hapus border */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* EFEK MASUK */
+
+@keyframes rose-bloom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.rose {
+    animation: rose-bloom 7s ease-out forwards;
+}
+
+/* RESPONSIVE */
